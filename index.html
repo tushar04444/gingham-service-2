@@ -1,0 +1,1223 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gingham Services</title>
+
+     <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/stylesheet.css">
+</head>
+<body>
+
+<div class="bg-gradient-custom">
+  <!-- Banner -->
+  <div class="banner">
+    <nav class="navbar navbar-expand-lg navbar-light navbar-custom" id="mainNavbar">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="#">
+            <img src="images/logo/gingham-final-logo.png" alt="">
+        </a>
+
+        <!-- Toggle button for mobile -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Default menu -->
+        <div class="collapse navbar-collapse default-menu" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <!-- <li class="nav-item"><a class="nav-link" href="#">Services</a></li> -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle nav-drop" href="#" id="megaMenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Templates <i class="fa fa-chevron-down icon"></i>
+                </a>
+
+                <ul class="dropdown-menu p-4 mega-menu" aria-labelledby="megaMenu">
+                    <!-- One li wrapper for mega menu -->
+                    <li>
+                    <div class="row">
+                        <!-- Column 1: Items -->
+                        <div class="col-md-4 item-list">
+                        <a href="#" class="dropdown-item" data-target="item1">Webflow Templates <p>Fast and responsive web designs builty with Webflow</p></a>
+                        <a href="#" class="dropdown-item" data-target="item2">Link 2</a>
+                        <a href="#" class="dropdown-item" data-target="item3">Link 3</a>
+                        </div>
+
+                        <!-- Column 2: Description + Image -->
+                        <div class="col-md-6 item-details">
+                        <div class="detail active" id="item1">
+                            <h5>Link 1 Title</h5>
+                            <p>This is the description for Link 1.</p>
+                            <img src="https://via.placeholder.com/250x150" alt="Link 1 Image" class="img-fluid">
+                        </div>
+                        <div class="detail" id="item2">
+                            <h5>Link 2 Title</h5>
+                            <p>This is the description for Link 2.</p>
+                            <img src="https://via.placeholder.com/250x150" alt="Link 2 Image" class="img-fluid">
+                        </div>
+                        <div class="detail" id="item3">
+                            <h5>Link 3 Title</h5>
+                            <p>This is the description for Link 3.</p>
+                            <img src="https://via.placeholder.com/250x150" alt="Link 3 Image" class="img-fluid">
+                        </div>
+                        </div>
+                    </div>
+                    </li>
+                </ul>
+            </li>
+
+
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+          </ul>
+        </div>
+
+        <!-- Mini menu for shrink -->
+        <ul class="navbar-nav ms-auto mini-menu">
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+          <li class="nav-item"><a class="nav-link btn btn-success text-white px-3 ms-2" href="#">Book a Call</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="banner-content">
+       <div class="ban-head d-flex justify-content-center align-items-center gap-3">
+            <h1>WE ARE</h1>
+            <div class="client-trust">
+                <div class="avatars">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client 1">
+                <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Client 2">
+                <div class="count">70+</div>
+                </div>
+                <div class="text">Trusted by 70+ <br> satisfied clients</div>
+            </div>
+        </div>
+        <h2><span>WEB UI-UX</span> DESIGN</h2>
+        <div class="ban-header3 gap-3">
+            <h3>AGENCY</h3>
+            <p class="ms-3 mt-3" style="text-align: left;">Olynex is a global web design agency, helping <br> brands create seamless experiences and <br> accelerate growth.</p>
+        </div>
+    </div>
+  </div>
+
+  <!-- Video Section -->
+  <div class="video-section" id="videoSection">
+    <video autoplay muted loop playsinline>
+      <source src="images/banner/banner.mp4" type="video/mp4">
+      Your browser does not support HTML video.
+    </video>
+  </div>
+</div>
+
+<!-- brands -->
+  <section id="brands">
+    <div class="container-fluid">
+        <div class="brand-head text-center">
+            <h6>More than 150+ <br> companies trusted us worldwide</h6>
+        </div>
+      <div class="brand-slider">
+        <div class="brand-track">
+          <!-- Repeat brand logos twice for smooth looping -->
+          <div class="brand-slide">
+            <a href="#"><img src="images/company/1.jpg" alt="Brand 1"></a>
+          </div>
+          <div class="brand-slide">
+            <a href="#"><img src="images/company/2.jpg" alt="Brand 2"></a>
+          </div>
+          <div class="brand-slide">
+            <a href="#"><img src="images/company/3.jpg" alt="Brand 3"></a>
+          </div>
+          <div class="brand-slide">
+            <a href="#"><img src="images/company/4.jpg" alt="Brand 4"></a>
+          </div>
+          <div class="brand-slide">
+            <a href="#"><img src="images/company/5.jpg" alt="Brand 5"></a>
+          </div>
+          <div class="brand-slide">
+            <a href="#"><img src="images/company/6.jpg" alt="Brand 6"></a>
+          </div>
+          <div class="brand-slide">
+            <a href="#"><img src="images/company/7.jpg" alt="Brand 7"></a>
+          </div>
+
+          <!-- repeat same logos for infinite loop -->
+          <div class="brand-slide">
+            <a href="#"><img src="images/company/8.jpg" alt="Brand 8"></a>
+          </div>
+          <div class="brand-slide">
+            <a href="#"><img src="images/company/9.jpg" alt="Brand 9"></a>
+          </div>
+          <div class="brand-slide">
+            <a href="#"><img src="images/company/1.jpg" alt="Brand 1"></a>
+          </div>
+          <div class="brand-slide">
+            <a href="#"><img src="images/company/2.jpg" alt="Brand 2"></a>
+          </div>
+          <div class="brand-slide">
+            <a href="#"><img src="images/company/3.jpg" alt="Brand 3"></a>
+          </div>
+          <div class="brand-slide">
+            <a href="#"><img src="images/company/4.jpg" alt="Brand 4"></a>
+          </div>
+          <div class="brand-slide">
+            <a href="#"><img src="images/company/5.jpg" alt="Brand 5"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- brands -->
+
+
+<!-- services -->
+ <section id="service">
+    <div class="container">
+        <div class="row product-row">
+            <div class="col-lg-6 right-col">
+            <div class="scroll-col">
+                    <div class="serv-head-btn">
+                        <button><i class="fa fa-circle" aria-hidden="true"></i> Services</button>
+                    </div>
+                <div class="serv-content mt-3">
+                    <h3>Services We Provide</h3>
+                    <h6>We empower businesses with innovative,
+                    scalable UI/UX design solutions that
+                    blend cutting-edge design</h6>
+                    <a href="" class="btn2 btn-2 serv-btn">Submit Your Request</a>
+                    <video autoplay muted loop playsinline class="serv-video">
+                        <source src="images/shape.mp4" type="video/mp4">
+                        Your browser does not support HTML video.
+                    </video>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 left-col">
+            <div class="left-content">
+                <div class="ser-card-1 d-flex">
+                <span class="card-left">1</span>
+                <div class="card-1">
+                    <img src="images/icon.svg" alt="">
+                    <h4>UI/UX Design</h4>
+                    <p>We craft amazing UI/UX designs that elevate user experiences. Let’s collaborate to transform your product with intuitive, impactful design solutions.</p>
+                </div>
+                </div>
+                <div class="ser-card-1 d-flex">
+                <span class="card-left">1</span>
+                <div class="card-1">
+                    <img src="images/icon.svg" alt="">
+                    <h4>UI/UX Design</h4>
+                    <p>We craft amazing UI/UX designs that elevate user experiences. Let’s collaborate to transform your product with intuitive, impactful design solutions.</p>
+                </div>
+                </div>
+                <div class="ser-card-1 d-flex">
+                <span class="card-left">1</span>
+                <div class="card-1">
+                    <img src="images/icon.svg" alt="">
+                    <h4>UI/UX Design</h4>
+                    <p>We craft amazing UI/UX designs that elevate user experiences. Let’s collaborate to transform your product with intuitive, impactful design solutions.</p>
+                </div>
+                </div>
+                <div class="ser-card-1 d-flex">
+                <span class="card-left">1</span>
+                <div class="card-1">
+                    <img src="images/icon.svg" alt="">
+                    <h4>UI/UX Design</h4>
+                    <p>We craft amazing UI/UX designs that elevate user experiences. Let’s collaborate to transform your product with intuitive, impactful design solutions.</p>
+                </div>
+                </div>
+                <div class="ser-card-1 d-flex">
+                <span class="card-left">1</span>
+                <div class="card-1">
+                    <img src="images/icon.svg" alt="">
+                    <h4>UI/UX Design</h4>
+                    <p>We craft amazing UI/UX designs that elevate user experiences. Let’s collaborate to transform your product with intuitive, impactful design solutions.</p>
+                </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+ </section>
+<!-- services -->
+
+
+<!-- CUSTOMER -->
+<section id="customer" data-aos="fade-up" data-aos-delay="200">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="serv-head-btn">
+          <button><i class="fa fa-circle" aria-hidden="true"></i> Customer-Centric</button>
+        </div>
+        <h3 class="cus-h3">Case Studies</h3>
+      </div>
+
+      <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="serv-content mt-3">
+          <h6>Learn how we overcame obstacles and achieved remarkable results by perusing our case studies. Uncover a wellspring of ideas now!</h6>
+          <a href="" class="btn2 btn-2 serv-btn">Submit Your Request</a>
+        </div>
+      </div>
+
+      <div class="col-lg-6 cus-left" data-aos="fade-right" data-aos-delay="300">
+        <img src="images/custom-image.webp" alt="" width="100%">
+        <div class="cus-left-con mt-4">
+          <div class="row">
+            <div class="col-lg-6 mb-3"><h5>Ellipy</h5></div>
+            <div class="col-lg-6 mb-3">
+              <p>Manage your money effortlessly. Track expenses, set budgets, and reach your financial goals — all in one secure app.</p>
+            </div>
+            <div class="col-lg-6"><h6>View Project</h6></div>
+            <div class="col-lg-6"><span>Mobile app</span><span>Mobile app</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 cus-left" data-aos="fade-left" data-aos-delay="400">
+        <img src="images/custom-image.webp" alt="" width="100%">
+        <div class="cus-left-con mt-4">
+          <div class="row">
+            <div class="col-lg-6 mb-3"><h5>Ellipy</h5></div>
+            <div class="col-lg-6 mb-3">
+              <p>Manage your money effortlessly. Track expenses, set budgets, and reach your financial goals — all in one secure app.</p>
+            </div>
+            <div class="col-lg-6"><h6>View Project</h6></div>
+            <div class="col-lg-6"><span>Mobile app</span><span>Mobile app</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-12 mt-5" data-aos="zoom-in" data-aos-delay="500">
+        <img src="images/custom-image (1).webp" alt="" style="border-radius:20px;" width="100%">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CUSTOMER -->
+
+<!-- process -->
+ <section id="process">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 ">
+                     <div class="serv-head-btn">
+                        <button><i class="fa fa-circle" aria-hidden="true"></i> Work Process</button>
+                    </div>
+                    <h3 class="cus-h3">Our Approach to Success</h3>
+            </div>
+            <div class="col-lg-6 mb-4">
+                     <div class="serv-content mt-5">
+                        <h6>Learn how we overcame obstacles and achieved remarkable results by perusing our case studies. Uncover a wellspring of ideas now!</h6>
+                        <!-- <a href="" class="btn2 btn-2 serv-btn">Submit Your Request</a> -->
+                        
+                    </div>
+            </div>
+          <div class="row service-steps position-relative">
+            <div class="col-lg-3 step-col">
+                <div class="ser-card-1">
+                    <div class="card-1">
+                        <img src="images/icon.svg" alt="">
+                        <h4>UI/UX Design</h4>
+                        <p>Requirements Analysis</p>
+                    </div>
+                </div>
+                <span class="step-dot"><p>Step 1</p></span>
+            </div>
+            <div class="col-lg-3 step-col">
+                <div class="ser-card-1">
+                    <div class="card-1">
+                        <img src="images/icon.svg" alt="">
+                        <h4>UI/UX Design</h4>
+                        <p>Requirements Analysis</p>
+                    </div>
+                </div>
+                <span class="step-dot"><p>Step 2</p></span>
+            </div>
+            <div class="col-lg-3 step-col">
+                <div class="ser-card-1">
+                    <div class="card-1">
+                        <img src="images/icon.svg" alt="">
+                        <h4>UI/UX Design</h4>
+                        <p>Requirements Analysis</p>
+                    </div>
+                </div>
+                <span class="step-dot"><p>Step 3</p></span>
+            </div>
+            <div class="col-lg-3 step-col">
+                <div class="ser-card-1">
+                    <div class="card-1">
+                        <img src="images/icon.svg" alt="">
+                        <h4>UI/UX Design</h4>
+                        <p>Requirements Analysis</p>
+                    </div>
+                </div>
+                <span class="step-dot"><p>Step 4</p></span>
+            </div>
+
+            <!-- horizontal line -->
+            <div class="horizontal-line"></div>
+        </div>
+
+
+        </div>
+    </div>
+ </section>
+<!-- process -->
+
+
+<!-- trusted -->
+ <section id="truested">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="serv-head-btn">
+                        <button><i class="fa fa-circle" aria-hidden="true"></i>Trusted From</button>
+                    </div>
+                     <h3 class="cus-h3">Our Best Reviews Collection</h3>
+                     <h6>Over 3 Years in the IT Industry, We‘ve Earned Countless Smiles, Friendships, and Well-Deserved Recognition Along the Way.</h6>
+                     <div class="trust-a mt-5">
+                        <a href="" class="btn2 btn-2 serv-btn">Submit Your Request</a>
+                     </div>
+            </div>
+            <div class="col-lg-6">
+                 <div class="bubble-container">
+                    <div class="bubble">
+                    <img src="images/Designrush.jpg" alt="Designrush">
+                    Designrush <br> 4.5/5
+                    </div>
+                    <div class="bubble">
+                    <img src="images/google.png" alt="Google">
+                    Google <br> 4.5/5
+                    </div>
+                    <div class="bubble">
+                    Clutch <br> 4.5/5
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+ </section>
+<!-- trusted -->
+
+<!-- Redefining -->
+<section id="Redefining">
+<div class="container">
+    <div class="row align-items-center">
+    
+    <!-- Left Image with Circles -->
+    <div class="col-lg-6 position-relative text-center mb-4 mb-lg-0">
+        <div class="circle-img">
+        <img src="images/team.webp" alt="Team" class="img-fluid rounded-circle">
+        
+        <!-- Bubble 1 -->
+        <div class="bubble-circle top-circle">
+            <h3>3+</h3>
+            <p>Years Experience</p>
+        </div>
+        
+        <!-- Bubble 2 -->
+        <div class="bubble-circle bottom-circle">
+            <h3>50+</h3>
+            <p>Team Members</p>
+        </div>
+        </div>
+    </div>
+
+    <!-- Right Content -->
+    <div class="col-lg-6">
+        <h3 class="cus-h3">Redefining Your Business with Our Creative Team</h3>
+    <h6><h6>Over 3 Years in the IT Industry, We‘ve Earned Countless Smiles, Friendships, and Well-Deserved Recognition Along the Way.</h6></h6>
+
+        <ul class="list-unstyled mt-3">
+        <li><i class="fa fa-check" aria-hidden="true"></i> Partnership-Driven Approach</li>
+        <li><i class="fa fa-check" aria-hidden="true"></i> Tailored Solutions</li>
+        <li><i class="fa fa-check" aria-hidden="true"></i> Transparent & Collaborative Process</li>
+        <li><i class="fa fa-check" aria-hidden="true"></i> Future-Ready Innovation</li>
+        </ul>
+
+        <div class="d-flex align-items-center gap-3 mt-4">
+            <div class="trust-a">
+            <a href="" class="btn2 btn-2 serv-btn">Submit Your Request</a>
+            </div>
+        <div class="d-flex align-items-center">
+            <img src="images/ceo.webp" alt="Founder" class="rounded-circle me-2" width="50">
+            <div>
+            <h6 class="mb-0">Manik Munna</h6>
+            <small class="text-muted">CEO & Founder</small>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    </div>
+</div>
+</section>
+
+<!-- Redefining -->
+
+<!-- Testimonials -->
+<section id="testimonial" class="py-5">
+  <div class="container">
+    <div class="row">
+      <!-- Left Heading -->
+      <div class="col-lg-6 mb-4">
+        <div class="serv-head-btn mb-3">
+          <button><i class="fa fa-circle" aria-hidden="true"></i> Testimonials</button>
+        </div>
+        <h3 class="cus-h3 text-white">What Our Clients Say</h3>
+        <h6 class="text-white">
+          Curious about our impact? Discover what our clients say about how we
+          transform user experience designs into reality!
+        </h6>
+      </div>
+    </div>
+
+    <!-- Swiper Slider -->
+    <div class="swiper testimonial-slider">
+      <div class="swiper-wrapper">
+        <!-- Slide 1 -->
+        <div class="swiper-slide">
+          <div class="row align-items-center p-4 rounded-3">
+            <!-- Left Content -->
+            <div class="col-lg-6 text-white">
+              <img src="images/logo1.png" alt="Client Logo" class="mb-3" style="width:120px;">
+              <p>
+                The team at Olynex is outstanding! Their exclusive pitch deck
+                service helped us present our business in an engaging and
+                persuasive way. Their professionalism and creativity were
+                instrumental in attracting quality investors. I highly recommend it!
+              </p>
+              <hr class="bg-light">
+              <h6><b>Alexander Arnold</b> – Senior Customer Relationship Manager</h6>
+              <div class="stars mt-2">
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+              </div>
+            </div>
+
+            <!-- Right Video -->
+            <div class="col-lg-6 text-center">
+              <div class="video-wrapper position-relative">
+                <video src="images/testimonial-3.mp4" class="img-fluid rounded-3"></video>
+                <a href="#" class="play-btn position-absolute top-50 start-50 translate-middle">
+                  <i class="fa fa-play"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="swiper-slide">
+          <div class="row align-items-center p-4 rounded-3">
+            <!-- Left Content -->
+            <div class="col-lg-6 text-white">
+              <img src="images/logo2.png" alt="Client Logo" class="mb-3" style="width:120px;">
+              <p>
+                Enovez delivered above expectations! They designed and executed
+                our app interface with precision and creativity. It boosted our
+                user engagement dramatically.
+              </p>
+              <hr class="bg-light">
+              <h6><b>Sarah Lee</b> – Product Manager</h6>
+              <div class="stars mt-2">
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star-half-o text-warning"></i>
+              </div>
+            </div>
+
+            <!-- Right Image -->
+            <div class="col-lg-6 text-center">
+              <div class="video-wrapper position-relative">
+                <video src="images/testimonial-3.mp4" class="img-fluid rounded-3"></video>
+                <a href="#" class="play-btn position-absolute top-50 start-50 translate-middle">
+                  <i class="fa fa-play"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Navigation -->
+      <div class="swiper-nav-wrapper text-center mt-4">
+        <div class="swiper-button-prev custom-nav d-inline-flex"></div>
+        <div class="swiper-button-next custom-nav d-inline-flex"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- faq -->
+ <section id="faq">
+    <div class="container">
+        <div class="row">
+            <div class="serv-head-btn mb-3">
+                <button><i class="fa fa-circle" aria-hidden="true"></i> Testimonials</button>
+            </div>
+            <div class="col-lg-6">
+                 <h3 class="cus-h3">Got Questions?</h3>
+
+
+                  <!-- Accordion -->
+                    <div class="faq-accordion mt-4">
+                            <!-- Item 1 -->
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                <span>What services does Olynex UI UX design agency offer?</span>
+                                <i class="fa fa-plus"></i>
+                                </div>
+                                <div class="faq-answer">
+                                <p>
+                                    We provide web design, app development, UI/UX solutions, and branding
+                                    strategies tailored to your business needs.
+                                </p>
+                                </div>
+                            </div>
+
+                            <!-- Item 2 -->
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                <span>What services does Olynex UI UX design agency offer?</span>
+                                <i class="fa fa-plus"></i>
+                                </div>
+                                <div class="faq-answer">
+                                <p>
+                                    Project timelines vary based on complexity. Typically, a standard
+                                    website takes 4–6 weeks to complete.
+                                </p>
+                                </div>
+                            </div>
+
+                            <!-- Item 3 -->
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                <span>What services does Olynex UI UX design agency offer?</span>
+                                <i class="fa fa-plus"></i>
+                                </div>
+                                <div class="faq-answer">
+                                <p>
+                                    Yes! We offer maintenance, updates, and ongoing support to keep your
+                                    website or app running smoothly.
+                                </p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                <span>What services does Olynex UI UX design agency offer?</span>
+                                <i class="fa fa-plus"></i>
+                                </div>
+                                <div class="faq-answer">
+                                <p>
+                                    Yes! We offer maintenance, updates, and ongoing support to keep your
+                                    website or app running smoothly.
+                                </p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                <span>What services does Olynex UI UX design agency offer?</span>
+                                <i class="fa fa-plus"></i>
+                                </div>
+                                <div class="faq-answer">
+                                <p>
+                                    Yes! We offer maintenance, updates, and ongoing support to keep your
+                                    website or app running smoothly.
+                                </p>
+                                </div>
+                            </div>
+                    </div>
+
+            </div>
+           <div class="col-lg-6">
+                <h6 class="text-white mt-5 mb-4">
+                    We're here to help! Simply scroll over some of our suggested Q & As. Reach out for more expert UI/UX design solutions suited just for you!
+                </h6>
+                <div class="faq-img">
+                    <div class="faq-img-overlay">
+                        <img src="images/faq.png" alt="">
+                        <div class="img-con d-flex justify-content-between">
+                            <h5 class="text-white">
+                                Can’t find what you’re looking for?
+                            </h5>
+                            <div class="trust-a">
+                                <a href="" class="btn2 btn-2 serv-btn">Know More Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+ </section>
+<!-- faq -->
+
+
+<!-- brand -->
+ <!-- ===== BRAND SECTION ===== -->
+<section id="brand" style="padding:60px 0;">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Left Column -->
+            <div class="col-lg-6">
+                <div class="serv-head-btn mb-3">
+                    <button><i class="fa fa-circle" aria-hidden="true"></i> Branding</button>
+                </div>
+                <h3 class="cus-h3 text-white">Our Brand</h3>
+            </div>
+
+            <!-- Right Column -->
+            <div class="col-lg-6">
+                <h6 class="text-white mt-2">
+                    We create bold and unstoppable brands—experience our purpose-driven innovation that genuinely connects with YOU.
+                </h6>
+                <div class="trust-a mt-4">
+                    <a href="" class="btn2 btn-2 serv-btn">Submit Your Request</a>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                 <!-- Interactive Options -->
+                <div class="options mt-5">
+                    <div class="option active">
+                        <div class="shadow"></div>
+                        <img src="images/graphypix.svg" alt="" style="padding: 30px 0 0 50px;">
+                        <div class="label">
+                           
+                            <div class="info">
+                                <div class="main px-5"><p>GraphyPx is a dynamic design agency that specializes in the creation of exceptional print materials that will captivate your audience and elevate your brand.</p></div>
+                                <div class="sub px-5 py-3">Know More</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="option">
+                        <div class="shadow"></div>
+                        <img src="images/graphypix.svg" alt="" style="padding: 30px 0 0 50px;">
+                        <div class="label">
+                           
+                            <div class="info">
+                                <div class="main px-5"><p>GraphyPx is a dynamic design agency that specializes in the creation of exceptional print materials that will captivate your audience and elevate your brand.</p></div>
+                                <div class="sub px-5 py-3">Know More</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="option">
+                        <div class="shadow"></div>
+                        <img src="images/graphypix.svg" alt="" style="padding: 30px 0 0 50px;">
+                        <div class="label">
+                           
+                            <div class="info">
+                                <div class="main px-5"><p>GraphyPx is a dynamic design agency that specializes in the creation of exceptional print materials that will captivate your audience and elevate your brand.</p></div>
+                                <div class="sub px-5 py-3">Know More</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="option">
+                        <div class="shadow"></div>
+                        <img src="images/graphypix.svg" alt="" style="padding: 30px 0 0 50px;">
+                        <div class="label">
+                           
+                            <div class="info">
+                                <div class="main px-5"><p>GraphyPx is a dynamic design agency that specializes in the creation of exceptional print materials that will captivate your audience and elevate your brand.</p></div>
+                                <div class="sub px-5 py-3">Know More</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!-- END Options -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- brand -->
+
+
+<!-- tech -->
+ <section id="tech">
+    <div class="container">
+        <div class="row">
+            <div class="serv-head-btn text-dark">
+                <button><i class="fa fa-circle" aria-hidden="true"></i>Technologies</button>
+            </div>
+            <div class="col-lg-6">
+                <h3 class="cus-h3 text-dark">Technology We Use</h3>
+            </div>
+            <div class="col-lg-6">
+                <h6 class="mt-4" style="line-height: 26px; letter-spacing: 1.2px;">Over 3 Years in the IT Industry, We‘ve Earned Countless Smiles, Friendships, and Well-Deserved Recognition Along the Way.</h6>
+            </div>
+
+            <div class="col-lg-6">
+                    <div class="design-card">
+                        <img src="images/tech.webp" alt="UI/UX Design" class="design-bg">
+                    <div class="design-overlay"></div>
+
+                    <div class="design-content">
+                        <h4>UI/UX<br>Design Solution</h4>
+                        <p>
+                            We craft user-centric designs that captivate, enhance usability, and drive meaningful 
+                            interactions, turning your vision into a reality with creativity and precision.
+                        </p>
+
+                        <hr>
+
+                        <div class="tag-list">
+                            <span>User Research</span>
+                            <span>Prototyping</span>
+                            <span>Wireframing</span>
+                            <span>Figma</span>
+                            <span>Sketch</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="design-card">
+                    <img src="images/tech.webp" alt="UI/UX Design" class="design-bg">
+                    <div class="design-overlay"></div>
+
+                    <div class="design-content">
+                        <h4>UI/UX<br>Design Solution</h4>
+                        <p>
+                            We craft user-centric designs that captivate, enhance usability, and drive meaningful 
+                            interactions, turning your vision into a reality with creativity and precision.
+                        </p>
+
+                        <hr>
+
+                        <div class="tag-list">
+                            <span>User Research</span>
+                            <span>Prototyping</span>
+                            <span>Wireframing</span>
+                            <span>Figma</span>
+                            <span>Sketch</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 big-design-card">
+                <div class="design-card">
+                    <img src="images/custom-image (2).webp" alt="UI/UX Design" class="design-bg">
+                    <div class="design-overlay"></div>
+
+                    <div class="design-content">
+                        <p>
+                            We craft user-centric designs that captivate, enhance usability, and drive meaningful 
+                            interactions, turning your vision into a reality with creativity and precision.
+                        </p>
+
+                        <hr>
+
+                        <div class="tag-list">
+                            <span>User Research</span>
+                            <span>Prototyping</span>
+                            <span>Wireframing</span>
+                            <span>Figma</span>
+                            <span>Sketch</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                    <div class="design-card">
+                        <img src="images/custom-image (3).webp" alt="UI/UX Design" class="design-bg">
+                    <div class="design-overlay"></div>
+
+                    <div class="design-content">
+                        <h4>UI/UX<br>Design Solution</h4>
+                        <p>
+                            We craft user-centric designs that captivate, enhance usability, and drive meaningful 
+                            interactions, turning your vision into a reality with creativity and precision.
+                        </p>
+
+                        <hr>
+
+                        <div class="tag-list">
+                            <span>User Research</span>
+                            <span>Prototyping</span>
+                            <span>Wireframing</span>
+                            <span>Figma</span>
+                            <span>Sketch</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="design-card">
+                    <img src="images/custom-image (4).webp" alt="UI/UX Design" class="design-bg">
+                    <div class="design-overlay"></div>
+
+                    <div class="design-content">
+                        <h4>UI/UX<br>Design Solution</h4>
+                        <p>
+                            We craft user-centric designs that captivate, enhance usability, and drive meaningful 
+                            interactions, turning your vision into a reality with creativity and precision.
+                        </p>
+
+                        <hr>
+
+                        <div class="tag-list">
+                            <span>User Research</span>
+                            <span>Prototyping</span>
+                            <span>Wireframing</span>
+                            <span>Figma</span>
+                            <span>Sketch</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+ </section>
+<!-- tech -->
+
+<!-- blog -->
+  <section id="faq">
+    <div class="container">
+        <div class="row">
+              <div class="col-lg-6">
+                <div class="serv-head-btn mb-3">
+                    <button><i class="fa fa-circle" aria-hidden="true"></i> Blog</button>
+                </div>
+                <h3 class="cus-h3 text-white">Our Latest Blogs</h3>
+            </div>
+
+            <!-- Right Column -->
+            <div class="col-lg-6">
+                <h6 class="text-white mt-2">
+                    We create bold and unstoppable brands—experience our purpose-driven innovation that genuinely connects with YOU.
+                </h6>
+                <div class="trust-a mt-5">
+                    <a href="" class="btn2 btn-2 serv-btn">Submit Your Request</a>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="blog-img">
+                    <img src="images/blog.webp" alt="" width="100%">
+                    <h4 class="text-white mt-3">Understanding Software Development: A Beginner’s Path to Success</h4>
+                    <div class="blog-time d-flex justify-content-between">
+                        <h6>13 Pril,2025</h6>
+                        <span class="d-flex"><i class="fa fa-circle"></i> <p>15 min road</p></span>
+                    </div>
+                    <h5 class="text-white">Keep Readin <i class="fa fa-long-arrow-right" aria-hidden="true"></i></h5>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="side-card d-flex justify-content-between mt-4">
+                    <div class="blog-card-img" style="width: 200px;">
+                        <img src="images/blog.webp" alt="" width="100%">
+                    </div>
+                    <div class="blog-card-con ms-3">
+                        <h4>Global Scopes for Bangladeshi UI UX Designers in 2025</h4>
+                        <div class="blog-time d-flex justify-content-between">
+                            <h6>13 Pril,2025</h6>
+                            <span class="d-flex"><i class="fa fa-circle"></i> <p>15 min road</p></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="side-card d-flex justify-content-between mt-4">
+                    <div class="blog-card-img" style="width: 200px;">
+                        <img src="images/blog.webp" alt="" width="100%">
+                    </div>
+                    <div class="blog-card-con ms-3">
+                        <h4>Global Scopes for Bangladeshi UI UX Designers in 2025</h4>
+                        <div class="blog-time d-flex justify-content-between">
+                            <h6>13 Pril,2025</h6>
+                            <span class="d-flex"><i class="fa fa-circle"></i> <p>15 min road</p></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="side-card d-flex justify-content-between mt-4">
+                    <div class="blog-card-img" style="width: 200px;">
+                        <img src="images/blog.webp" alt="" width="100%">
+                    </div>
+                    <div class="blog-card-con ms-3">
+                        <h4>Global Scopes for Bangladeshi UI UX Designers in 2025</h4>
+                        <div class="blog-time d-flex justify-content-between">
+                            <h6>13 Pril,2025</h6>
+                            <span class="d-flex"><i class="fa fa-circle"></i> <p>15 min road</p></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="side-card side-card-2 d-flex justify-content-between mt-4">
+                    <div class="blog-card-img" style="width: 200px;">
+                        <img src="images/blog.webp" alt="" width="100%">
+                    </div>
+                    <div class="blog-card-con ms-3">
+                        <h4>Global Scopes for Bangladeshi UI UX Designers in 2025</h4>
+                        <div class="blog-time d-flex justify-content-between">
+                            <h6>13 Pril,2025</h6>
+                            <span class="d-flex"><i class="fa fa-circle"></i> <p>15 min road</p></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+<!-- blog -->
+
+
+<!-- contect -->
+ <section id="contect">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-6 mb-4">
+                <div class="serv-head-btn mb-3">
+                    <button><i class="fa fa-circle" aria-hidden="true"></i> Contact</button>
+                </div>
+                    <h3 class="cus-h3 text-white">Let’s get Started</h3>
+                    <h6 class="text-white">
+                    Our UI/UX design company delivers digital solutions that drive success and elevate your brand’s presence in the digital world.
+                    </h6>
+                
+                    <div class="contact-content mt-3">
+                    <video autoplay muted loop playsinline class="serv-video">
+                        <source src="images/shape-2.mp4" type="video/mp4">
+                        Your browser does not support HTML video.
+                    </video>
+
+
+                    </div>
+
+                    
+                
+            </div>
+
+            <div class="col-lg-6">
+                <div class="contact-form">
+                    <form action="">
+                        <div class="form-part-1 d-flex">
+                            <div class="form-group">
+                            <label for="fullName1">Full Name *</label>
+                            <input type="text" id="fullName1" class="form-control-custom" placeholder="Enter Full Name" name="name">
+                            </div>
+                            <div class="form-group">
+                            <label for="fullName2">Company *</label>
+                            <input type="text" id="fullName2" class="form-control-custom" placeholder="Enter company name" name="comppany">
+                            </div>
+                        </div>
+                        <div class="form-part-1 d-flex">
+                             <div class="form-group">
+                                <label for="fullName2">Phone *</label>
+                                <input type="text" id="fullName2" class="form-control-custom" placeholder="Enter your phone" name="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="fullName1">E-mail *</label>
+                                <input type="text" id="fullName1" class="form-control-custom" placeholder="Enter your email" name="email">
+                            </div>
+                           
+                        </div>
+                        <div class="form-part-1">
+                            <div class="form-group">
+                            <label for="fullName1">Tell us about the project</label>
+                            <input type="text" id="fullName1" class="form-control-custom" placeholder="Write Here" name="name">
+                            </div>
+                        </div>
+                        <div class="budget">
+                            <h4 class="text-white">Select you're interested in</h4>
+                                <div class="form-budget d-flex justify-content-between">
+                                        <div class="form-1">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                            <label class="form-check-label" for="flexRadioDefault1">
+                                                Standard
+                                            </label>
+                                            </div>
+                                            <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                            <label class="form-check-label" for="flexRadioDefault2">
+                                                Advance
+                                            </label>
+                                        </div>
+                                            <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" checked>
+                                            <label class="form-check-label" for="flexRadioDefault3">
+                                                Advance
+                                            </label>
+                                        </div>
+                                        
+                                    </div>
+                                        <div class="form-1">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                            <label class="form-check-label" for="flexRadioDefault1">
+                                                Standard
+                                            </label>
+                                            </div>
+                                            <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                            <label class="form-check-label" for="flexRadioDefault2">
+                                                Advance
+                                            </label>
+                                        </div>
+                                            <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" checked>
+                                            <label class="form-check-label" for="flexRadioDefault3">
+                                                Advance
+                                            </label>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="trust-a mt-5">
+                            <a href="" class="btn2 btn-2 serv-btn">Submit Project Request</a>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+<!-- contect -->
+
+
+<!-- footer -->
+<section id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 mb-5">
+        <div class="logo-footer d-flex justify-content-between">
+            <div class="logo-con">
+                <img src="images/logo/gingham-final-logo.png" alt="">
+                <p class="text-white">We’re a creative agency transforming how companies connect and <br> thrive through innovative design</p>
+            </div>
+            <div class="logo-con">
+                <h4 class="text-white">Lets's Connect</h4>
+               <div class="down d-flex align-items-center">
+                    <a href="" class="icon-circle">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                    </a>
+                    <div class="down-text ms-3">
+                        <h6>Our Journey</h6>
+                        <p>PDF, 5MB</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="footer-2">
+             <h5>Services</h5>
+            <p>UI/UX Design</p>
+            <p>UI/UX Design</p>
+            <p>UI/UX Design</p>
+            <p>UI/UX Design</p>
+            <p>UI/UX Design</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="footer-2">
+             <h5>Services</h5>
+            <p>UI/UX Design</p>
+            <p>UI/UX Design</p>
+            <p>UI/UX Design</p>
+            <p>UI/UX Design</p>
+            <p>UI/UX Design</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="footer-2">
+             <h5>Services</h5>
+            <p>UI/UX Design</p>
+            <p>UI/UX Design</p>
+            <p>UI/UX Design</p>
+            <p>UI/UX Design</p>
+            <p>UI/UX Design</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="footer-2">
+             <h5>Services</h5>
+            <p>UI/UX Design</p>
+            <p>UI/UX Design</p>
+            <p>UI/UX Design</p>
+            <p>UI/UX Design</p>
+            <p>UI/UX Design</p>
+        </div>
+      </div>
+
+      <!-- copyright -->
+       <div class="col-lg-4">
+            <div class="icons">
+                <i class="fa fa-behance" aria-hidden="true"></i>
+                <i class="fa fa-dribbble" aria-hidden="true"></i>
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </div>
+       </div>
+
+       <div class="col-lg-4">
+         <p class="reserved">© 2025 All rights reserved Gingham.</p>
+       </div>
+
+       <div class="col-lg-4">
+         <div class="terms">
+            <a href="">Terms</a>
+            <a href="">Policy</a>
+            <a href="">Cookies</a>
+         </div>
+       </div>
+      <!-- copyright -->
+    </div>
+  </div>
+
+  <!-- Footer decorative images -->
+  <img src="images/footer-1.webp" alt="Footer Left" class="footer-img footer-left">
+  <img src="images/footer-2.webp" alt="Footer Right" class="footer-img footer-right">
+</section>
+
+<!-- footer -->
+
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!-- Swiper JS -->
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/custom.js"></script>
+
+<script>
+  var swiper = new Swiper(".testimonial-slider", {
+    loop: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+
+
+
+</script>
+
+</body>
+</html>
